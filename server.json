@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/pref_mg_belo_horizonte_cndiptu-mcp",
+  "title": "Prefeitura MG Belo Horizonte: Certidão Negativa de Débitos (IPTU)",
+  "description": "Prefeitura MG Belo Horizonte: Clearance Certificate (Debts) (IPTU), official-source lookup. Platform",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/pref_mg_belo_horizonte_cndiptu-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_pref_mg_belo_horizonte_cndiptu"
+    }
+  ]
+}
